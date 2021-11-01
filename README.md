@@ -12,7 +12,7 @@ GANs’ potential for both good and evil is huge, because they can learn to mimi
 
 ## How GANs Work?
 
-![GAN Architecture](GAN Architecture.png)
+![GAN Architecture]('GAN Architecture.png')
 
 One neural network, called the generator, generates new data instances, while the other, the discriminator, evaluates them for authenticity; i.e. the discriminator decides whether each instance of data that it reviews belongs to the actual training dataset or not.
 
