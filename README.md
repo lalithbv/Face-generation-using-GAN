@@ -36,13 +36,13 @@ To generate images using GAN, I used images obtained from **CelebFaces Attribute
 
 > Ref: https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
-**Random Face from the dataset**
+### Random Face from the dataset
 ![RandomCeleb](./Resources/RandomCeleb.png)
 
 ## Results
 
-**Generated Face 1**
+### Generated Face 1
 ![GeneratedFace1](./Resources/GeneratedFace1.png)
 
-**Generated Face 2**
+### Generated Face 2
 ![GeneratedFace2](./Resources/GeneratedFace2.png)
