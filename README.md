@@ -1,8 +1,4 @@
-# Face-generation-using-GAN
-Face generation using Generative Adversarial Networks (GANs) of the CelebA dataset
-
-
-
+# Face generation using GAN
 
 Generative Adversarial Networks (GANs) are algorithmic architectures that use two neural networks, pitting one against the other (thus the “adversarial”) in order to generate new, synthetic instances of data that can pass for real data. They are used widely in image generation, video generation and voice generation.
 
@@ -12,7 +8,7 @@ GANs’ potential for both good and evil is huge, because they can learn to mimi
 
 ## How GANs Work?
 
-![GAN](GAN_Architecture.png)
+![RandomCeleb](./Resources/RandomCeleb.png)
 
 One neural network, called the generator, generates new data instances, while the other, the discriminator, evaluates them for authenticity; i.e. the discriminator decides whether each instance of data that it reviews belongs to the actual training dataset or not.
 
@@ -30,3 +26,23 @@ Meanwhile, the generator is creating new, synthetic images that it passes to the
 - The generator is in a feedback loop with the discriminator.
 
 Both nets are trying to optimize a different and opposing objective function, or loss function, in a zero-zum game. This is essentially an actor-critic model. As the discriminator changes its behavior, so does the generator, and vice versa. Their losses push against each other.
+
+## Data
+
+To generate images using GAN, I used images obtained from **CelebFaces Attributes Dataset (CelebA)** which is a large-scale face attributes dataset with more than 200K celebrity images, each with 40 attribute annotations. The images in this dataset cover large pose variations and background clutter. CelebA has large diversities, large quantities, and rich annotations, including:
+- 10,177 number of identities,
+- 202,599 number of face images, and
+- 5 landmark locations, 40 binary attributes annotations per image.
+
+> Ref: https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+
+**Random Face from the dataset**
+![RandomCeleb](./Resources/RandomCeleb.png)
+
+## Results
+
+**Generated Face 1**
+![GeneratedFace1](./Resources/GeneratedFace1.png)
+
+**Generated Face 2**
+![GeneratedFace2](./Resources/GeneratedFace2.png)
